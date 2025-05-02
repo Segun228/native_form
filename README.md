@@ -1,12 +1,8 @@
-# React + Vite
+# Native form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a study project, showing possible ways of using and validating forms in React. Currently there are two forms in the project. The first one uses simple validation. The second one uses custom hooks, including:
 
-Currently, two official plugins are available:
+- useInput
+- useValidation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+These hooks are reusable. UseValidation supports custom validations.
